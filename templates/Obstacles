@@ -1,0 +1,3 @@
+{% for obstacle in obstacles %}
+    {{ obstacle}}
+{% endfor %}

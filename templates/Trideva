@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>Deva</th>
+        <th>Devi</th>
+    </tr>
+{% for God in Trinity %}
+    <tr>
+        <td>{{ God.God }}</td>
+        <td>{{ God.Consort }}</td>
+    </tr>
+{% endfor %}
+</table>
